@@ -1,22 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuCasDev.Freight.IdentityServer", "LuCasDev.Freight.IdentityServer\LuCasDev.Freight.IdentityServer.csproj", "{5171D35C-C8AB-46DD-9B78-69E4B673BA51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuCasDev.Freight.IdentityServer", "LuCasDev.Freight.IdentityServer\LuCasDev.Freight.IdentityServer.csproj", "{5171D35C-C8AB-46DD-9B78-69E4B673BA51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuCasDev.Freight.API", "LuCasDev.Freight.API\LuCasDev.Freight.API.csproj", "{93AF0798-B61A-4AB0-91E7-D6BADB1288A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuCasDev.Freight.Client", "LuCasDev.Freight.Client\LuCasDev.Freight.Client.csproj", "{41CD1E59-400C-47A8-8CBC-9F5D8A2123DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5171D35C-C8AB-46DD-9B78-69E4B673BA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5171D35C-C8AB-46DD-9B78-69E4B673BA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5171D35C-C8AB-46DD-9B78-69E4B673BA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5171D35C-C8AB-46DD-9B78-69E4B673BA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AF0798-B61A-4AB0-91E7-D6BADB1288A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AF0798-B61A-4AB0-91E7-D6BADB1288A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AF0798-B61A-4AB0-91E7-D6BADB1288A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AF0798-B61A-4AB0-91E7-D6BADB1288A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CD1E59-400C-47A8-8CBC-9F5D8A2123DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CD1E59-400C-47A8-8CBC-9F5D8A2123DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CD1E59-400C-47A8-8CBC-9F5D8A2123DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CD1E59-400C-47A8-8CBC-9F5D8A2123DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6EC8280-D19F-4902-92F1-B1FC2570BE50}
 	EndGlobalSection
 EndGlobal

@@ -11,7 +11,7 @@ namespace LuCasDev.Freight.IdentityServer
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope>
             {
-                new ApiScope("lucasdev-freight-api", "LuCasDev Freihgt APi")
+                new ApiScope("lucasdev-freight-api", "LuCasDev Freight API")
             };
 
         public static IEnumerable<Client> Clients =>
@@ -19,7 +19,7 @@ namespace LuCasDev.Freight.IdentityServer
             {
                 new Client
                 {
-                    ClientId = "client",
+                    ClientId = "lucasdev-freight-console-client",
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets =
                     {

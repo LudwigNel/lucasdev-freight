@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dS06WDgTVftNC0dkzPEdlyymQUCPVKBsjRNcYSNBZTTrs/yUoSjRWJRx3yO8zKB2k0Msc09+SjQbSyT+4MOpGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lnel\\source\\repos\\LPN\\lucasdev-freight\\LuCasDev.Freight.Client\\LuCasDev.Freight.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lnel\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\Lnel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Lnel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
